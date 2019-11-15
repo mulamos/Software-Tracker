@@ -1,0 +1,596 @@
+[21-Feb-2019 13:58:19 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/php/classes/Database.php on line 82
+[21-Feb-2019 13:58:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php/classes/Database.php on line 82
+[21-Feb-2019 13:59:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/php/classes/Database.php on line 82
+[21-Feb-2019 14:14:26 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/php/classes/Database.php on line 82
+[21-Feb-2019 14:14:44 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/php/classes/Database.php on line 82
+[21-Feb-2019 14:16:03 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/php/classes/Database.php on line 82
+[21-Feb-2019 14:16:14 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/ubuntu/workspace/php/classes/Database.php on line 78
+[21-Feb-2019 15:34:39 UTC] PHP Warning:  password_hash() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php/classes/hash.php on line 3
+[21-Feb-2019 15:34:39 UTC] PHP Stack trace:
+[21-Feb-2019 15:34:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/hash.php:0
+[21-Feb-2019 15:34:39 UTC] PHP   2. password_hash() /home/ubuntu/workspace/php/classes/hash.php:3
+[21-Feb-2019 15:41:58 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/php/classes/hash.php on line 5
+[21-Feb-2019 15:41:58 UTC] PHP Stack trace:
+[21-Feb-2019 15:41:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/hash.php:0
+[21-Feb-2019 15:41:58 UTC] PHP   2. userExist() /home/ubuntu/workspace/php/classes/hash.php:15
+[21-Feb-2019 15:42:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/php/classes/hash.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/hash.php(8): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/php/classes/hash.php(18): userExist('987654321', 'intern')
+#2 {main}
+  thrown in /home/ubuntu/workspace/php/classes/hash.php on line 8
+[21-Feb-2019 15:43:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/php/classes/hash.php on line 8
+[21-Feb-2019 15:43:27 UTC] PHP Stack trace:
+[21-Feb-2019 15:43:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/hash.php:0
+[21-Feb-2019 15:43:27 UTC] PHP   2. userExist() /home/ubuntu/workspace/php/classes/hash.php:17
+[21-Feb-2019 15:43:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/php/classes/hash.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/hash.php(8): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/php/classes/hash.php(18): userExist('987654321', 'intern')
+#2 {main}
+  thrown in /home/ubuntu/workspace/php/classes/hash.php on line 8
+[21-Feb-2019 15:48:27 UTC] PHP Fatal error:  Undefined class constant 'FETCH' in /home/ubuntu/workspace/php/classes/hash.php on line 11
+[21-Feb-2019 15:48:27 UTC] PHP Stack trace:
+[21-Feb-2019 15:48:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/hash.php:0
+[21-Feb-2019 21:36:00 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/php/classes/hash.php on line 17
+[21-Feb-2019 21:36:00 UTC] PHP Stack trace:
+[21-Feb-2019 21:36:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/hash.php:0
+[21-Feb-2019 21:36:35 UTC] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home/ubuntu/workspace/php/classes/hash.php on line 18
+[21-Feb-2019 21:36:35 UTC] PHP Stack trace:
+[21-Feb-2019 21:36:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/hash.php:0
+[25-Feb-2019 17:38:57 UTC] PHP Fatal error:  Class 'anlutro\cURL\cURL' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[25-Feb-2019 17:38:57 UTC] PHP Stack trace:
+[25-Feb-2019 17:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[25-Feb-2019 17:39:52 UTC] PHP Fatal error:  Class 'anlutro\cURL\cURL' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 5
+[25-Feb-2019 17:39:52 UTC] PHP Stack trace:
+[25-Feb-2019 17:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[25-Feb-2019 17:41:14 UTC] PHP Fatal error:  Class 'vendor\anlutro\cURL\cURL' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 5
+[25-Feb-2019 17:41:14 UTC] PHP Stack trace:
+[25-Feb-2019 17:41:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[25-Feb-2019 17:41:26 UTC] PHP Fatal error:  Class 'vendor\anlutro\cURL\cURL' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 5
+[25-Feb-2019 17:41:26 UTC] PHP Stack trace:
+[25-Feb-2019 17:41:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[25-Feb-2019 17:42:06 UTC] PHP Fatal error:  Class 'anlutro\cURL\cURL' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 5
+[25-Feb-2019 17:42:06 UTC] PHP Stack trace:
+[25-Feb-2019 17:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[25-Feb-2019 17:43:17 UTC] PHP Warning:  require(../../vendor/anlutro/cURL/cURL.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[25-Feb-2019 17:43:17 UTC] PHP Stack trace:
+[25-Feb-2019 17:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[25-Feb-2019 17:43:17 UTC] PHP Fatal error:  require(): Failed opening required '../../vendor/anlutro/cURL/cURL.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[25-Feb-2019 17:43:17 UTC] PHP Stack trace:
+[25-Feb-2019 17:43:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:16:47 UTC] PHP Warning:  password_hash() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php/classes/Auth.php on line 64
+[28-Feb-2019 14:16:47 UTC] PHP Stack trace:
+[28-Feb-2019 14:16:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:16:47 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:16:47 UTC] PHP   3. password_hash(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:64
+[28-Feb-2019 14:16:47 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 68
+[28-Feb-2019 14:16:47 UTC] PHP Stack trace:
+[28-Feb-2019 14:16:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:16:47 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:17:07 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 68
+[28-Feb-2019 14:17:07 UTC] PHP Stack trace:
+[28-Feb-2019 14:17:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:17:07 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:18:59 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:18:59 UTC] PHP Stack trace:
+[28-Feb-2019 14:18:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:18:59 UTC] PHP   2. ReallySimpleJWT\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:19:28 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:19:28 UTC] PHP Stack trace:
+[28-Feb-2019 14:19:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:19:28 UTC] PHP   2. ReallySimpleJWT\Token\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:21:22 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Interfaces\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:21:22 UTC] PHP Stack trace:
+[28-Feb-2019 14:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:21:22 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:22:08 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Interfaces\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:22:08 UTC] PHP Stack trace:
+[28-Feb-2019 14:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:22:08 UTC] PHP   2. ReallySimpleJWT\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:33:55 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:33:55 UTC] PHP Stack trace:
+[28-Feb-2019 14:33:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:33:55 UTC] PHP   2. Vendor\Rbdwllr\ReallySimpleJWT\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:34:10 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:34:10 UTC] PHP Stack trace:
+[28-Feb-2019 14:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:34:10 UTC] PHP   2. Vendor\Rbdwllr\ReallySimpleJWT\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:34:29 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:34:29 UTC] PHP Stack trace:
+[28-Feb-2019 14:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:34:29 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:34:43 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:34:43 UTC] PHP Stack trace:
+[28-Feb-2019 14:34:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:34:43 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:35:53 UTC] PHP Fatal error:  Undefined constant 'Vendor' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:35:53 UTC] PHP Stack trace:
+[28-Feb-2019 14:35:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:36:05 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:36:05 UTC] PHP Stack trace:
+[28-Feb-2019 14:36:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:36:05 UTC] PHP   2. Vendor\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:36:22 UTC] PHP Fatal error:  Undefined constant 'vendor' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:36:22 UTC] PHP Stack trace:
+[28-Feb-2019 14:36:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:36:58 UTC] PHP Fatal error:  Undefined constant 'vendor\rbdwllr' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:36:58 UTC] PHP Stack trace:
+[28-Feb-2019 14:36:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:37:13 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:37:13 UTC] PHP Stack trace:
+[28-Feb-2019 14:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:37:13 UTC] PHP   2. vendor\rbdwllr\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:38:16 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:38:16 UTC] PHP Stack trace:
+[28-Feb-2019 14:38:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:38:16 UTC] PHP   2. vendor\rbdwllr\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:39:37 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:39:37 UTC] PHP Stack trace:
+[28-Feb-2019 14:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:39:37 UTC] PHP   2. ReallySimpleJWT\Token\Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:45:17 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:45:17 UTC] PHP Stack trace:
+[28-Feb-2019 14:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:45:17 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:46:22 UTC] PHP Fatal error:  Undefined constant 'Vendor\Rbdwllr' in /home/ubuntu/workspace/php/classes/Auth.php on line 4
+[28-Feb-2019 14:46:22 UTC] PHP Stack trace:
+[28-Feb-2019 14:46:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:47:09 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:47:09 UTC] PHP Stack trace:
+[28-Feb-2019 14:47:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:47:09 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:49:22 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:49:22 UTC] PHP Stack trace:
+[28-Feb-2019 14:49:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:49:22 UTC] PHP   2. ReallySimpleJWT\Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:53:06 UTC] PHP Fatal error:  Undefined constant 'ReallySimpleJWT' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:53:06 UTC] PHP Stack trace:
+[28-Feb-2019 14:53:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:53:07 UTC] PHP Fatal error:  Undefined constant 'ReallySimpleJWT' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:53:07 UTC] PHP Stack trace:
+[28-Feb-2019 14:53:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:53:23 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:53:23 UTC] PHP Stack trace:
+[28-Feb-2019 14:53:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:53:23 UTC] PHP   2. Vendor\ReallySimpleJWT\Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:53:48 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 69
+[28-Feb-2019 14:53:48 UTC] PHP Stack trace:
+[28-Feb-2019 14:53:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:53:48 UTC] PHP   2. ReallySimpleJWT\Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:79
+[28-Feb-2019 14:54:39 UTC] PHP Fatal error:  Class 'ReallySimpleJWT\Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 70
+[28-Feb-2019 14:54:39 UTC] PHP Stack trace:
+[28-Feb-2019 14:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:54:39 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:55:04 UTC] PHP Fatal error:  Class 'Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 70
+[28-Feb-2019 14:55:04 UTC] PHP Stack trace:
+[28-Feb-2019 14:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:55:04 UTC] PHP   2. ReallySimpleJWT\Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:55:13 UTC] PHP Fatal error:  Class 'Token' not found in /home/ubuntu/workspace/php/classes/Auth.php on line 70
+[28-Feb-2019 14:55:13 UTC] PHP Stack trace:
+[28-Feb-2019 14:55:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:55:13 UTC] PHP   2. ReallySimpleJWT\Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:55:28 UTC] PHP Warning:  The use statement with non-compound name 'Token' has no effect in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[28-Feb-2019 14:55:28 UTC] PHP Fatal error:  Undefined constant 'ReallySimpleJWT' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:55:28 UTC] PHP Stack trace:
+[28-Feb-2019 14:55:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:55:43 UTC] PHP Fatal error:  Undefined constant 'ReallySimpleJWT' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:55:43 UTC] PHP Stack trace:
+[28-Feb-2019 14:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:58:16 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 14:58:16 UTC] PHP Stack trace:
+[28-Feb-2019 14:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:58:16 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:58:16 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:58:16 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:58:16 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 14:58:16 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 14:58:16 UTC] PHP Stack trace:
+[28-Feb-2019 14:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:58:16 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:58:16 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:58:16 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:58:16 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 14:58:51 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:58:51 UTC] PHP Stack trace:
+[28-Feb-2019 14:58:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:58:51 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 14:58:51 UTC] PHP Stack trace:
+[28-Feb-2019 14:58:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:59:05 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 14:59:05 UTC] PHP Stack trace:
+[28-Feb-2019 14:59:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:59:05 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:59:05 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:59:05 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:59:05 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 14:59:05 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 14:59:05 UTC] PHP Stack trace:
+[28-Feb-2019 14:59:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 14:59:05 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 14:59:05 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:59:05 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 14:59:05 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:07:18 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:07:18 UTC] PHP Stack trace:
+[28-Feb-2019 15:07:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:07:18 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 15:07:18 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:18 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:18 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:07:18 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:07:18 UTC] PHP Stack trace:
+[28-Feb-2019 15:07:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:07:18 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 15:07:18 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:18 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:18 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:07:20 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:07:20 UTC] PHP Stack trace:
+[28-Feb-2019 15:07:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:07:20 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 15:07:20 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:20 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:20 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:07:20 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:07:20 UTC] PHP Stack trace:
+[28-Feb-2019 15:07:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:07:20 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 15:07:20 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:20 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:70
+[28-Feb-2019 15:07:20 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:07:45 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:07:45 UTC] PHP Stack trace:
+[28-Feb-2019 15:07:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:07:45 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:07:45 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:07:45 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:07:45 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:07:45 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:07:45 UTC] PHP Stack trace:
+[28-Feb-2019 15:07:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:07:45 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:07:45 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:07:45 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:07:45 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:11:51 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:11:51 UTC] PHP Stack trace:
+[28-Feb-2019 15:11:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:11:51 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:11:51 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:11:51 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:11:51 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:11:51 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:11:51 UTC] PHP Stack trace:
+[28-Feb-2019 15:11:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:11:51 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:11:51 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:11:51 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:11:51 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:17:00 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:17:00 UTC] PHP Stack trace:
+[28-Feb-2019 15:17:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:17:00 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:17:00 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:17:00 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:17:00 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:17:00 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:17:00 UTC] PHP Stack trace:
+[28-Feb-2019 15:17:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:17:00 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:17:00 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:17:00 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:17:00 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:21:01 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:21:01 UTC] PHP Stack trace:
+[28-Feb-2019 15:21:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:21:01 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:21:01 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:21:01 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:21:01 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:21:01 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:21:01 UTC] PHP Stack trace:
+[28-Feb-2019 15:21:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:21:01 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:81
+[28-Feb-2019 15:21:01 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:21:01 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 15:21:01 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:21:28 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/php/classes/Auth.php on line 2
+[28-Feb-2019 15:21:29 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:21:29 UTC] PHP Stack trace:
+[28-Feb-2019 15:21:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:21:29 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:21:29 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:21:29 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:21:29 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:21:29 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:21:29 UTC] PHP Stack trace:
+[28-Feb-2019 15:21:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:21:29 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:21:29 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:21:29 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:21:29 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:23:22 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:23:22 UTC] PHP Stack trace:
+[28-Feb-2019 15:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:23:22 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:23:22 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:23:22 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:23:22 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:23:22 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:23:22 UTC] PHP Stack trace:
+[28-Feb-2019 15:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:23:22 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:23:22 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:23:22 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:23:22 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:23:46 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:23:46 UTC] PHP Stack trace:
+[28-Feb-2019 15:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:23:46 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:23:46 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:23:46 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:23:46 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:25:18 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:25:18 UTC] PHP Stack trace:
+[28-Feb-2019 15:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:25:18 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:25:18 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:25:18 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:25:18 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:25:18 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:25:18 UTC] PHP Stack trace:
+[28-Feb-2019 15:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:25:18 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:25:18 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:25:18 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:25:18 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:31:01 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:31:01 UTC] PHP Stack trace:
+[28-Feb-2019 15:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:31:01 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:31:01 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:01 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:01 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:31:01 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:31:01 UTC] PHP Stack trace:
+[28-Feb-2019 15:31:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:31:01 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:31:01 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:01 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:01 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:31:43 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:31:43 UTC] PHP Stack trace:
+[28-Feb-2019 15:31:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:31:43 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:31:43 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:43 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:43 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:31:43 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:31:43 UTC] PHP Stack trace:
+[28-Feb-2019 15:31:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:31:43 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:31:43 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:43 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:31:43 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:33:04 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:33:04 UTC] PHP Stack trace:
+[28-Feb-2019 15:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:33:04 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:33:04 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:04 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:04 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:33:04 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:33:04 UTC] PHP Stack trace:
+[28-Feb-2019 15:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:33:04 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:33:04 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:04 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:04 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:33:06 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:33:06 UTC] PHP Stack trace:
+[28-Feb-2019 15:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:33:06 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:33:06 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:06 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:06 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:33:06 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:33:06 UTC] PHP Stack trace:
+[28-Feb-2019 15:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:33:06 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:33:06 UTC] PHP   3. spl_autoload_call() /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:06 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:06 UTC] PHP   5. Composer\Autoload\includeFile() /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:33:08 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:33:08 UTC] PHP Stack trace:
+[28-Feb-2019 15:33:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:33:08 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:33:08 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:08 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:08 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:33:08 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:33:08 UTC] PHP Stack trace:
+[28-Feb-2019 15:33:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:33:08 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:33:08 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:08 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:33:08 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:36:26 UTC] PHP Warning:  Unsupported declare 'strict_types' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 3
+[28-Feb-2019 15:36:26 UTC] PHP Stack trace:
+[28-Feb-2019 15:36:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:36:26 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:36:26 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:36:26 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:36:26 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:36:26 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /home/ubuntu/workspace/vendor/rbdwllr/reallysimplejwt/src/Token.php on line 38
+[28-Feb-2019 15:36:26 UTC] PHP Stack trace:
+[28-Feb-2019 15:36:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:36:26 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:82
+[28-Feb-2019 15:36:26 UTC] PHP   3. spl_autoload_call(*uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:36:26 UTC] PHP   4. Composer\Autoload\ClassLoader->loadClass($class = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:72
+[28-Feb-2019 15:36:26 UTC] PHP   5. Composer\Autoload\includeFile($file = *uninitialized*) /home/ubuntu/workspace/vendor/composer/ClassLoader.php:322
+[28-Feb-2019 15:53:37 UTC] PHP Catchable fatal error:  Object of class Ahc\Jwt\JWT could not be converted to string in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 15:53:37 UTC] PHP Stack trace:
+[28-Feb-2019 15:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:53:37 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 15:55:47 UTC] PHP Fatal error:  Call to undefined function __string() in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 15:55:47 UTC] PHP Stack trace:
+[28-Feb-2019 15:55:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:55:47 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 15:57:26 UTC] PHP Fatal error:  Cannot use object of type Ahc\Jwt\JWT as array in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 15:57:26 UTC] PHP Stack trace:
+[28-Feb-2019 15:57:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:57:26 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 15:57:33 UTC] PHP Fatal error:  Cannot use object of type Ahc\Jwt\JWT as array in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 15:57:33 UTC] PHP Stack trace:
+[28-Feb-2019 15:57:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 15:57:33 UTC] PHP   2. Authentication::isAuthenticated($id = *uninitialized*, $password = *uninitialized*) /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 17:16:22 UTC] PHP Fatal error:  Cannot use object of type Ahc\Jwt\JWT as array in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 17:16:22 UTC] PHP Stack trace:
+[28-Feb-2019 17:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 17:16:22 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 17:18:00 UTC] PHP Fatal error:  Cannot use object of type Ahc\Jwt\JWT as array in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 17:18:00 UTC] PHP Stack trace:
+[28-Feb-2019 17:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 17:18:00 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 17:18:11 UTC] PHP Fatal error:  Cannot use object of type Ahc\Jwt\JWT as array in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 17:18:11 UTC] PHP Stack trace:
+[28-Feb-2019 17:18:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 17:18:11 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 17:18:34 UTC] PHP Warning:  gettext() expects parameter 1 to be string, object given in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 17:18:34 UTC] PHP Stack trace:
+[28-Feb-2019 17:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 17:18:34 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 17:18:34 UTC] PHP   3. gettext() /home/ubuntu/workspace/php/classes/Auth.php:71
+[28-Feb-2019 17:21:03 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 17:27:16 UTC] PHP Catchable fatal error:  Object of class Ahc\Jwt\JWT could not be converted to string in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 17:27:16 UTC] PHP Stack trace:
+[28-Feb-2019 17:27:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 17:27:16 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 17:33:21 UTC] PHP Fatal error:  Cannot use object of type Ahc\Jwt\JWT as array in /home/ubuntu/workspace/php/classes/Auth.php on line 71
+[28-Feb-2019 17:33:21 UTC] PHP Stack trace:
+[28-Feb-2019 17:33:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 17:33:21 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:80
+[28-Feb-2019 17:42:21 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(71): Ahc\Jwt\JWT->decode('$2y$10$oJ8nuPso...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(82): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 17:44:14 UTC] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/ubuntu/workspace/php/classes/Auth.php on line 74
+[28-Feb-2019 17:48:40 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'JSON failed: unexpected character' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php:120
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(251): Ahc\Jwt\JWT->validateLastJson()
+#1 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(140): Ahc\Jwt\JWT->urlSafeDecode('$2y$10$81qUKiTh...')
+#2 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('$2y$10$81qUKiTh...')
+#3 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#4 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php on line 120
+[28-Feb-2019 17:50:55 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('$2y$10$jXIUuvyW...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 17:52:42 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('$2y$10$nCOtCcvX...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 17:52:57 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'JSON failed: unexpected character' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php:120
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(251): Ahc\Jwt\JWT->validateLastJson()
+#1 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(140): Ahc\Jwt\JWT->urlSafeDecode('$2y$10$H')
+#2 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('$2y$10$H.jMUWYE...')
+#3 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#4 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php on line 120
+[28-Feb-2019 17:53:55 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('$2y$10$I9p1/Bjg...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 17:54:18 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('$2y$10$RcjApNdA...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 17:55:02 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode(false)
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 17:57:08 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('f520f394f12445e...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 18:02:19 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('123')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 18:02:39 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(72): Ahc\Jwt\JWT->decode('123')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(86): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 18:08:12 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'JSON failed: unexpected character' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php:120
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(251): Ahc\Jwt\JWT->validateLastJson()
+#1 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(140): Ahc\Jwt\JWT->urlSafeDecode('$1$JFgTuGSK$eaZ...')
+#2 /home/ubuntu/workspace/php/classes/Auth.php(73): Ahc\Jwt\JWT->decode('$1$JFgTuGSK$eaZ...')
+#3 /home/ubuntu/workspace/php/classes/Auth.php(85): Authentication::isAuthenticated('123456778', 'admin')
+#4 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php on line 120
+[28-Feb-2019 18:08:34 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(73): Ahc\Jwt\JWT->decode('$1$VimzrgSh$sbV...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(85): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 18:10:57 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'JSON failed: unexpected character' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php:120
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(251): Ahc\Jwt\JWT->validateLastJson()
+#1 /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php(140): Ahc\Jwt\JWT->urlSafeDecode('$1$R3K8Kztc$ASa...')
+#2 /home/ubuntu/workspace/php/classes/Auth.php(73): Ahc\Jwt\JWT->decode('$1$R3K8Kztc$ASa...')
+#3 /home/ubuntu/workspace/php/classes/Auth.php(85): Authentication::isAuthenticated('123456778', 'admin')
+#4 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php on line 120
+[28-Feb-2019 18:10:59 UTC] PHP Fatal error:  Uncaught exception 'Ahc\Jwt\JWTException' with message 'Invalid token: Incomplete segments' in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:136
+Stack trace:
+#0 /home/ubuntu/workspace/php/classes/Auth.php(73): Ahc\Jwt\JWT->decode('$1$DjYotj3Q$mlS...')
+#1 /home/ubuntu/workspace/php/classes/Auth.php(85): Authentication::isAuthenticated('123456778', 'admin')
+#2 {main}
+  thrown in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 18:23:02 UTC] PHP Fatal error:  Exceptions must be valid objects derived from the Exception base class in /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php on line 136
+[28-Feb-2019 18:23:02 UTC] PHP Stack trace:
+[28-Feb-2019 18:23:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 18:23:02 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:85
+[28-Feb-2019 18:23:02 UTC] PHP   3. Ahc\Jwt\JWT->decode() /home/ubuntu/workspace/php/classes/Auth.php:73
+[28-Feb-2019 18:23:26 UTC] PHP Fatal error:  Exceptions must be valid objects derived from the Exception base class in /home/ubuntu/workspace/vendor/adhocore/jwt/src/ValidatesJWT.php on line 120
+[28-Feb-2019 18:23:26 UTC] PHP Stack trace:
+[28-Feb-2019 18:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[28-Feb-2019 18:23:26 UTC] PHP   2. Authentication::isAuthenticated() /home/ubuntu/workspace/php/classes/Auth.php:85
+[28-Feb-2019 18:23:26 UTC] PHP   3. Ahc\Jwt\JWT->decode() /home/ubuntu/workspace/php/classes/Auth.php:73
+[28-Feb-2019 18:23:26 UTC] PHP   4. Ahc\Jwt\JWT->urlSafeDecode() /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:140
+[28-Feb-2019 18:23:26 UTC] PHP   5. Ahc\Jwt\JWT->validateLastJson() /home/ubuntu/workspace/vendor/adhocore/jwt/src/JWT.php:251
+[01-Mar-2019 21:17:15 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[01-Mar-2019 21:17:15 UTC] PHP Stack trace:
+[01-Mar-2019 21:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[01-Mar-2019 21:17:15 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[01-Mar-2019 21:17:15 UTC] PHP Stack trace:
+[01-Mar-2019 21:17:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[01-Mar-2019 21:27:17 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[01-Mar-2019 21:27:17 UTC] PHP Stack trace:
+[01-Mar-2019 21:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
+[01-Mar-2019 21:27:17 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/classes/Auth.php on line 3
+[01-Mar-2019 21:27:17 UTC] PHP Stack trace:
+[01-Mar-2019 21:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/classes/Auth.php:0
