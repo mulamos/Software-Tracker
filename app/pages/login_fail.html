@@ -1,0 +1,162 @@
+<DOCTYPE! html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+		<title>Login</title>
+
+		<!-- you can modify this as needed or to your preference -->
+		<!--<link href="index.css" type="text/css" rel="stylesheet" />-->
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		
+			<!-- Bootstrap Core CSS -->
+	    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	    <!-- MetisMenu CSS -->
+	    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+	
+	    <!-- Custom CSS -->
+	    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.7/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>		
+
+		<!-- you write this -->
+		<script src="" type="text/javascript"></script>
+	</head>
+	
+	<body ng-app="myLogin" ng-controller="controller">
+		<div id="main">
+			<div class="centered">
+				<div class="header">
+			      <img id="login_img" src=""></img>
+			      <!--<div class="bottom-centered"><h1>Login</h1></div>-->
+		    	</div>
+		    	
+				
+		  <form name="loginForm" ng-submit = "loginform()" method="post" action="/php/login.php">
+		    <div class="container">
+		      <div>
+		        <img src="../assets/pics/Login-Logo.png"></img>
+		      </div>
+		      <h4 class="login-title">Login to use the application</h4>
+		      <!--<div ng-if="loginval==false" class="alert-group">-->
+		      <!--          <div class="alert alert-danger">-->
+		      <!--              <p>Something went wrong! Ensure that all fields are valid</p>-->
+		      <!--          </div>-->
+		      <!--  </div>-->
+		        <div class="alert alert-danger alert-dismissable">
+                    Something went wrong! Please try again.
+                </div>
+		      <div class="form-group">
+		        <label for="uname" class="control-label"></label>
+		        <input class="form-field" id="id-field" type="text" name="idNumber" placeholder="ID" ng-model ="log_in.idnumber" required><br>
+		      </div>
+		      
+		      
+		      <label for="psw"></label>
+		      <input class="form-field" id="psw-field" type="password" placeholder="Password" ng-model="log_in.password" name="password" required><br>
+		      
+		        <div class="rmbr-me-check">
+		        <input type="checkbox" checked="checked" name="remember"> <span class="rmbr-me">Remember me</span>
+		        </div><br>
+		  
+		      <!--<button type="submit"></button>-->
+		      <!--<div class="login-btn"><img src="assets/icons/login-btn.png"></img></div><br>-->
+		      <button id='btn' class="btn btn-primary btn-lg" type="submit">LOGIN</button>
+		    </div>
+		  
+		    <div class="containerr">
+		      <!--<button type="button" class="cancelbtn">Cancel</button>-->
+		      <span class="psw-text">So you can’t get in to your account?<br>Did you forget your <a href="#" class="psw"> password?</a></span>
+		    </div>
+		  </form>
+		</body>
+		
+						<p id="status"></p>
+					</div>
+				</div>
+			</body>
+</html>
+
+		<style>
+		  html {
+		      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		      height: 100%;
+		      min-height: 100%;
+		      overflow:hidden;
+		  }
+		  body{
+		      width: 100%;
+		      height: 100%;
+		      background-image: url(../assets/pics/login-bg.jpg);
+		      background-position: center;
+		      background-repeat: no-repeat;
+		      background-size: cover;
+		      font-family: roboto;
+		      min-height: 100%;
+		      overflow:auto;
+		      z-index: -1;
+		  }
+		  .container{
+		    text-align:center;
+		    margin-top:8%;
+		  }
+		  .containerr{
+		    text-align:center;
+		    margin-top:10px;
+		  }
+		  .form-field{
+		    background-color:transparent;
+		    border: 1px solid #9B9B9B;
+		    border-radius: 2px;
+		    width:24%;
+		    margin:4px;
+		    padding:6px;
+		  }
+		  #id-field::placeholder{
+		    color:#9B9B9B;
+		    font-family: HelveticaNeue;
+		    font-size: 14px;
+		  }
+		  #psw-field::placeholder{
+		    color:#9B9B9B;
+		    font-family: HelveticaNeue;
+		    font-size: 14px;
+		  }
+		  .rmbr-me{
+		    color:#4A4A4A;
+		    font-family: HelveticaNeue-Medium;
+		    font-size: 12px;
+		  }
+		  .rmbr-me-check{
+		    margin-left:-170px;
+		    margin-top:8px;
+		  }
+		  .psw-text{
+		    font-family: HelveticaNeue-Medium;
+		    font-size: 14px;
+		    color: #4A4A4A;
+		    text-align:center;
+		    line-height:17px;
+		    margin-top:8px;
+		  }
+		  .login-btn{
+		    text-align:center;
+		    margin-left:8px;
+		  }
+		  #main{
+		  	margin-top:-40px;
+		  }
+		  .alert{
+		  	visibility:visible;
+		  	width: 50%;
+			margin-left: 25%;
+		  }
+		</style>
+		<script type="text/javascript" src="../js/login.js"></script>
