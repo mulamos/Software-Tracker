@@ -31,5 +31,11 @@
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "bower": "^1.8.8",
+    "generator-angular": "^0.16.0",
+    "generator-karma": "^2.0.1",
+    "yo": "^3.1.0"
   }
 }

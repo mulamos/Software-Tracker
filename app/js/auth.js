@@ -10,15 +10,15 @@
 // }
 
 if(window.location.href.includes('forms') && Cookies.get('user') == undefined){
-    window.location.href = 'https://software-tracker-mulamos.c9users.io/pages/login.html';
+    window.location.href = 'http://localhost:80/app/pages/login.html';
 }
 
 if(window.location.href.includes('tables') && Cookies.get('user') == undefined){
-    window.location.href = 'https://software-tracker-mulamos.c9users.io/pages/login.html';
+    window.location.href = 'http://localhost:80/app/pages/login.html';
 }
 
 if(window.location.href.includes('users') && Cookies.get('user') == undefined){
-    window.location.href = 'https://software-tracker-mulamos.c9users.io/pages/login.html';
+    window.location.href = 'http://localhost:80/app/pages/login.html';
 }
 
 

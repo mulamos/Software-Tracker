@@ -1,5 +1,7 @@
 $.ajax({
-    url: "../php/auto-complete-dep.php",
+    url: "http://localhost:80/app/php/auto-complete-dep.php",
+    crossDomain:true,
+    headers: {  'Access-Control-Allow-Origin': '*' },
     cache: false, 
     dataType: "json",
     timeout:3000,
@@ -19,7 +21,9 @@ $.ajax({
 });
 
 $.ajax({
-    url: "../php/auto-complete-sN.php",
+    url: "http://localhost:80/app/php/auto-complete-sN.php",
+    crossDomain:true,
+    headers: {  'Access-Control-Allow-Origin': '*' },
     cache: false, 
     dataType: "json",
     timeout:3000,
@@ -39,7 +43,9 @@ $.ajax({
 });
 
 $.ajax({
-    url: "../php/auto-complete-iN.php",
+    url: "http://localhost:80/app/php/auto-complete-iN.php",
+    crossDomain:true,
+    headers: {  'Access-Control-Allow-Origin': '*' },
     cache: false, 
     dataType: "json",
     timeout:3000,

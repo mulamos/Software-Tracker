@@ -9,14 +9,14 @@ $("#logout-btn").click((e) => {
           onBeforeOpen: () => {
             Swal.showLoading()
             timerInterval = setInterval(() =>{
-                 $.get('https://software-tracker-mulamos.c9users.io/php/logout.php',{
+                 $.get('https://localhost:80/app/php/logout.php',{
                     user: cookie 
                  });
                  Cookies.remove('user',{path: '/pages/'},100);
                   Cookies.remove('role',{path: '/pages/'},100);
                   
     
-                 window.location.href = 'https://software-tracker-mulamos.c9users.io/pages/login.html';
+                 window.location.href = 'https://localhost:9000/pages/';
             });
           },
           onClose: () => {

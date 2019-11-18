@@ -14,7 +14,7 @@ app.controller("controller", ($scope,$http) => {
     var spinner = new Spinner().spin();
     target.appendChild(spinner.el);
                 
-$http.get('../php/retrieve_data.php')
+$http.get('http://localhost/app/php/retrieve_data.php')
   .then((response) => {
    $scope.objects = response.data;
   $scope.showTable = () => {
@@ -51,7 +51,7 @@ $http.get('../php/retrieve_data.php')
     };
     
  $('#loader').show();
- $http.get('../php/retrieve_users.php')
+ $http.get('http://localhost:80/app/php/retrieve_users.php')
  .then((response) => {
      $('#loader').hide();
      $scope.persons = response.data;
@@ -66,7 +66,7 @@ $http.get('../php/retrieve_data.php')
     // $scope.removePerson = (index,row_id) =>{
     //             $scope.persons.splice(index,1);
     //             $http({
-    //                 url: '../php/delete_user.php', 
+    //                 url: 'http://localhost:80/app/php/delete_user.php', 
     //                 method: "GET",
     //                 params: {user_id: row_id}
     //             });    
@@ -85,12 +85,13 @@ $http.get('../php/retrieve_data.php')
             
         }else{
              $http({
-                url: '../php/add_user.php', 
+                url: 'http://localhost:80/app/php/add_user.php', 
                 method: "GET",
-                params: { 
-                    id: $('#idNumber').val(),
-                    role: $('#user_role').val().slice(7)
-                }
+                headers:"'Access-Control-Allow-Origin': '*'"
+                // params: { 
+                //     id: $('#idNumber').val(),
+                //     role: $('#user_role').val().slice(7)
+                // }
         
         });
             swal.fire('User Added Successfully','','success');
@@ -103,8 +104,9 @@ $http.get('../php/retrieve_data.php')
     $scope.removePerson = (index,row_id) =>{
         $scope.persons.splice($scope.persons.indexOf(row_id));
         $http({
-            url: '../php/delete_user.php', 
+            url: 'http://localhost:80/app/php/delete_user.php', 
             method: "GET",
+            headers: {  'Access-Control-Allow-Origin': '*' },
             params: {user_id: row_id}
         });    
         

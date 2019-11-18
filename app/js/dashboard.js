@@ -1,21 +1,23 @@
 var app = angular.module('myapp', []);
         app.controller('panelCtrl', function($scope, $http) {
-            $http.get("../php/num_soft.php")
+            $http.defaults.headers.ContentType = "'Access-Control-Allow-Origin: *";
+
+            $http.get("http://localhost:80/app/php/num_soft.php")
             .then(function (response) {
                 $scope.objects = response.data;
                 $scope.num_soft = $scope.objects;
         });
-            $http.get("../php/num_installer.php")
+            $http.get("http://localhost:80/app/php/num_installer.php")
             .then(function (response) {
                 $scope.objects = response.data;
                 $scope.num_installer = $scope.objects;
         });
-        $http.get("../php/num_dept.php")
+        $http.get("http://localhost:80/app/php/num_dept.php")
             .then(function (response) {
                 $scope.objects = response.data;
                 $scope.num_dept = $scope.objects;
         });
-        $http.get("../php/num_license.php")
+        $http.get("http://localhost:80/app/php/num_license.php")
             .then(function (response) {
                 $scope.objects = response.data;
                 $scope.num_license = $scope.objects;
@@ -26,7 +28,7 @@ var app = angular.module('myapp', []);
         $scope.s_name = "Endnote";
         var init_data = "Endnote";
         var init_form_data = {'search_softName':init_data};
-        $.post('../php/morris-area.php',init_form_data).done((data) => {
+        $.post('http://localhost:80/app/php/morris-donut.php',init_form_data).done((data) => {
             var done_data = JSON.parse(data);
             // console.log(done_data);
         Morris.Bar({
@@ -59,7 +61,7 @@ var app = angular.module('myapp', []);
             
             var spinner = new Spinner().spin();
                 target.appendChild(spinner.el);
-              $.post('../php/morris-area.php',form_data).done((data) => {
+              $.post('http://localhost:80/app/php/morris-area.php',form_data).done((data) => {
                     $('#loader').hide();
                     var data = JSON.parse(data);
                     if (data.length == 0) {
@@ -88,7 +90,7 @@ var app = angular.module('myapp', []);
         $scope.d_name = "CARIMAC";
         var ini_data = "CARIMAC";
         var ini_form_data = {'search_deptName':ini_data};
-        $.post('../php/morris-area-2.php',ini_form_data).done((data) => {
+        $.post('http://localhost:80/app/php/morris-area-2.php',ini_form_data).done((data) => {
             var done_Data = JSON.parse(data);
             // console.log(done_Data);
         Morris.Bar({
@@ -122,7 +124,7 @@ var app = angular.module('myapp', []);
             
             var spinner_2 = new Spinner().spin();
                 target.appendChild(spinner_2.el);
-              $.post('../php/morris-area-2.php',form_data).done((data) => {
+              $.post('http://localhost:80/app/php/morris-area-2.php',form_data).done((data) => {
                     $('#loader-2').hide();
                     var data = JSON.parse(data);
                         if (data.length == 0) {
@@ -151,8 +153,9 @@ var app = angular.module('myapp', []);
 
 ////////////////////////////////////////// Display Chart one (Donut Chart) on dashboard ////////////////////////////////////////
 $.ajax({
-    url: "../php/morris-donut.php",
+    url: "http://localhost:80/app/php/morris-donut.php",
     cache: false, 
+    crossDomain:true,
     dataType: "json",
     timeout:3000,
     success : function (data) {
@@ -174,8 +177,9 @@ $.ajax({
 
 //////////////////////////////////////// Auto complete for Software name field of chart two on dash///////////////////////
 $.ajax({
-    url: "../php/auto-complete-sN.php",
+    url: "http://localhost:80/app/php/auto-complete-sN.php",
     cache: false, 
+    crossDomain:true,
     dataType: "json",
     timeout:3000,
     success : function (data) {
@@ -196,8 +200,9 @@ $.ajax({
 
 //////////////////////////////////////// Auto complete for Department name field of chart three on dash/////////////////
 $.ajax({
-    url: "../php/auto-complete-dep.php",
+    url: "http://localhost:80/app/php/auto-complete-dep.php",
     cache: false, 
+    crossDomain:true,
     dataType: "json",
     timeout:3000,
     success : function (data) {
