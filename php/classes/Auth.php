@@ -2,6 +2,7 @@
 use Ahc\Jwt\JWT;
 require '../vendor/autoload.php';
 require ('Database.php');
+header("Access-Control-Allow-Origin: http://localhost:9000");
 
 
 $url = "https://apps.mona.uwi.edu/wservice/authenticate.php";
