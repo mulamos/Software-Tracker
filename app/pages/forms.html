@@ -388,48 +388,48 @@
                                 <div class="col-lg-6">
                                     <form role="form" method="POST" action="../php/forms.php">
                                         <div class="form-group">
-                                            <label>ID Number</label>
+                                            <label>ID Number<span class="color-red">*</span></label>
                                             <input class="form-control" name="id" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>First Name</label>
+                                            <label>First Name<span class="color-red">*</span></label>
                                             <input class="form-control" name="fname" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>Last Name</label>
+                                            <label>Last Name<span class="color-red">*</span></label>
                                             <input class="form-control" name="lname" required>
                                         </div>
                                         <div class="form-group ui-widget">
-                                            <label for="tags">Department</label>
+                                            <label for="tags">Department<span class="color-red">*</span></label>
                                             <input class="form-control" id="tags" name="dept" required>
                                         </div>
                                         <div class="form-group ui-widget">
-                                            <label for="tags1">Software Name</label>
+                                            <label for="tags1">Software Name<span class="color-red">*</span></label>
                                             <input class="form-control" id="tags1" name="software_name" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>No. of License</label>
+                                            <label>No. of License<span class="color-red">*</span></label>
                                             <input class="form-control" name="num_license" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>Software Version</label>
-                                            <input class="form-control" name="s_version">
+                                            <label>Software Version<span class="color-red">*</span></label>
+                                            <input class="form-control" name="s_version" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>OS Type</label>
+                                            <label>OS Type<span class="color-red">*</span></label>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="radio" name="os" value="WIN" >WIN
+                                                    <input type="radio" name="os" value="WIN" > Windows
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="radio" name="os" value="MAC">macOS
+                                                    <input type="radio" name="os" value="MAC"> macOS
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="radio" name="os" value="LIN">Linux
+                                                    <input type="radio" name="os" value="LIN"> Linux
                                                 </label>
                                             </div>
                                         </div>
@@ -438,11 +438,11 @@
                                         <!--    <input class="form-control" name="comp_name" required>-->
                                         <!--</div>-->
                                         <div class="form-group ui-widget">
-                                            <label for="tags2">Installer Name</label>
+                                            <label for="tags2">Installer Name<span class="color-red">*</span></label>
                                             <input class="form-control" id="tags2" name="installer" required>
                                         </div>
                                         <div class="form-group">
-                                            <label>Date</label>
+                                            <label>Date<span class="color-red">*</span></label>
                                             <input type="date" class="form-control" placeholder="DD/MM/YYYY" name="date" required>
                                         </div>
                                         
@@ -522,6 +522,9 @@
         font-family:roboto;
         font-weight:300;
         font-size:20px;
+    }
+    .color-red{
+        color: red;
     }
 </style>
 
