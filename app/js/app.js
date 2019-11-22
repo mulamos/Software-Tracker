@@ -44,9 +44,21 @@ $http.get('http://localhost/app/php/retrieve_data.php')
                 responsive: true,
                 dom: 'Bfrtip',
                 buttons: [
-                    'copy', 'csv', 'excel', 'pdf', 'print'
+                    'copy', 'csv', 'excel', 
+                    {
+                        extend:'pdf',
+                        title : function() {
+                            return "Software Tracker Table";
+                        },
+                        orientation : 'landscape',
+                        pageSize : 'LEGAL',
+                        text : '<i class="fa fa-file-pdf-o"> PDF</i>',
+                        titleAttr : 'PDF'
+                    }
+                    ,'print'
                 ],
                 destroy: true,
+                select: true
             });
     };
     
