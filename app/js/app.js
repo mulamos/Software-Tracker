@@ -44,7 +44,19 @@ $http.get('http://localhost/app/php/retrieve_data.php')
                 responsive: true,
                 dom: 'Bfrtip',
                 buttons: [
-                    'copy', 'csv', 'excel', 
+                    {
+                        extend: 'copy',
+                        text: '<i class="fa fa-clipboard"> Copy</i>'
+                    },
+                    {
+                        extend: 'csv',
+                        text: '<i class="fa fa-file-o"> CSV</i>'
+                    } 
+                    ,
+                    {
+                        extend:'excel',
+                        text: '<i class="fa fa-file-excel-o"> Excel</i>'
+                    }, 
                     {
                         extend:'pdf',
                         title : function() {
@@ -54,8 +66,11 @@ $http.get('http://localhost/app/php/retrieve_data.php')
                         pageSize : 'LEGAL',
                         text : '<i class="fa fa-file-pdf-o"> PDF</i>',
                         titleAttr : 'PDF'
-                    }
-                    ,'print'
+                    },
+                    {
+                        extend: 'print',
+                        text : '<i class="fa fa-print"> Print</i>'
+                    },
                 ],
                 destroy: true,
                 select: true
